@@ -68,14 +68,7 @@ body {
   background-color: grey;
 }
 
-@media(max-width:600px){
-  .btn{
-    margin:3px;
-
-  }
-  #level-title{
-    font-size: 2rem;
-  }  
+@media(min-width:600px){
   .container {
     display: flex;
     justify-content: center;
